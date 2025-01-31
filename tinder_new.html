@@ -30,14 +30,45 @@
                 width: auto;
             }
 
-            .name {
+            .name_and_badge {
                 font-weight: bold;
                 text-align: left;
                 padding-left: 15px;
                 padding-top: 10px;
                 font-size: 20px;
                 font-family: 'Montserrat', sans-serif;
-                
+            }
+
+            .verified_badge {
+                height: 15px;
+                width: auto;
+            }
+
+            .verified {
+                color: lightgray;
+                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                padding-left: 15px;
+                padding-top: 10px;
+                font-size: 15px;
+            }
+
+            .like_button {
+                font-family: 'Montserrat', sans-serif;
+                background-color: lightgray;
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                margin: 0 60px;
+                border-radius: 20px;
+            }
+
+            .heart {
+                height: 18px;
+                width: auto;
             }
         </style>
     </head>
@@ -46,7 +77,18 @@
             <img class="tinder_logo" src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png" alt="The tinder logo">
             <hr>
             <img class="mans_image" src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png" alt="A man's profile picture">
-            <div class="name">Sean Rad, 29</div>
+            <div class="name_and_badge">
+                Sean Rad, 29
+                <img class="verified_badge" src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png" alt="Verified button">
+            </div>  
+            <div class="verified">
+                Verified
+            </div>
+            <hr>
+            <div class="like_button">
+                <img class="heart" src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png">
+                Like Me on Tinder
+            </div>
         </div>
     </body>
 </html>
